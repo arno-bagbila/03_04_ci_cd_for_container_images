@@ -14,7 +14,7 @@ WORKDIR /workspace
 COPY requirements.txt \
      main.py \
      main_test.py \
-     COPY data.json ./
+     data.json .
 
 # Install the requirements
 RUN pip install --no-cache-dir --requirement requirements.txt
